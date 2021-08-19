@@ -1,0 +1,32 @@
+{
+  "name": "gulpLesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "del": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-image": "^6.2.1",
+    "gulp-uglify": "^3.0.1",
+    "jest": "^24.8.0",
+    "npm-force-resolutions": "^0.0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resolve-install": "npx npm-force-resolutions && npm install",
+    "preinstall": "npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "https-proxy-agent": "^3.0.0"
+  }
+}

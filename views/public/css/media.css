@@ -1,0 +1,21 @@
+@media(max-width:  992px) {
+    .card-row {
+        width: auto;
+    }
+    .card {
+        margin: 0 15px;
+    }
+    .way-nav-section .row {
+        overflow-x: scroll;
+    }
+    .btn-submit {
+        margin: 15px auto 30px auto;
+        width: 284px;
+    }
+}
+
+@media(max-width:  560px) {
+    .header-btn, .navbar-brand {
+         flex-grow: initial; 
+    }
+}

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const n=document.querySelector(".slide-left");window.addEventListener("scroll",()=>{var{scrollTop:e,clientHeight:t}=document.documentElement;e>(e+n.getBoundingClientRect().top).toFixed()-.5*t&&n.classList.add("active")})});
